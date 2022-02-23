@@ -95,11 +95,13 @@
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 35px 15px 300px;
-
+    width: 95%;
     border-radius: 10px;
 }
 .edit-info-container {
-    margin-left: 70px;
+  display: flex;
+  justify-content: center;
+    /* margin-left: 70px; */
     width: 98%;
     height: 90%;
 }
@@ -135,7 +137,7 @@
   }
 
   .info-field-inner > p {
-    margin-left: 40px;
+    margin-left: 15px;
     width: max-content;
   }
 
@@ -176,7 +178,25 @@
     height: 28px;
 }
 
-
+@media screen and (max-width: 980px){
+  .edit-profile-main {
+    transform: scale(0.7);
+    /* width: 80vw;
+    height: 80%; */
+    margin: -69px 0 0 154px;
+  }
+  .info-main{
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 800px){
+  .edit-profile-main{
+    /* transform: scale(0.7); */
+    /* width: 80vw;
+    height: 80%; */
+    /* margin: -69px 0 0 154px; */
+  }
+}
 
 
 

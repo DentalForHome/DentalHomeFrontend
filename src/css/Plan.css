@@ -19,8 +19,9 @@
     background-size:  cover;
     background-repeat: no-repeat;
     width: 50%;
-    height: 40vh;
+    height: 40%;
     padding: 10px;
+    padding-bottom: 40px;
 }
 .plan-card-profile {
     display: flex;
@@ -106,8 +107,9 @@
     background-size: cover;
     width: 40%;
     border-radius: 10px;
-    height: 41vh;
+    height: 290px;
     transform: scale(1.05);
+    padding-bottom: 30px;
 }
 .family-plan-card {
     display: flex;
@@ -136,6 +138,7 @@
     }
     .plan-card-offer {
         transform: scale(0.95);
+        /* width: 6 0vw; */
     }
   }
   @media screen and (max-width: 1100px) {
@@ -145,26 +148,27 @@
         align-items: center;
     }
     .plan-card-offer  {
-        width: 40vw;
+        width: 50vw;
     }
   }
   @media screen and (max-width: 1020px)  {
     .plan-card  {
         /* width: 50vw; */
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
-    .plan-card-lower {
+    .plan-card-offer {
         transform: scale(0.9);
     }
   }
   @media screen and (max-width: 800px) {
 
     .family-plan-card {
-        margin-left: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .plan-card  {
         width: 70vw;
-        height: 38vh;
+        height: 38%;
         transform: scale(1);
     }
     /* .plan-card-detail-up {
@@ -182,18 +186,20 @@
         margin-top: -1vh;
     } */
     .my-plan-card { 
-        margin-left:35px ;
+        margin-left:5px ;
+        margin-right: 5px;
     }
     .plan-card-offer  {
-        margin-top: 5vh;
-        width: 77vw;
+        margin-top: 5%;
+        width: 80vw;
     }
   }
   @media screen and (max-width: 600px) {
     .plan-card {
         width: 90vw;
         transform: scale(0.8);
-        margin-top: -5vh;
+        margin-top: -5%;
+        
     } 
     .plan-card-offer {
         margin-top: 1vh;
@@ -230,7 +236,7 @@
     .plan-card {
         width: 97vw;
         transform: scale(0.7);
-        height: 38vh;
+        height: 32%;
         /* padding-bottom: 1vh; */
     } 
     .plan-card-offer {
@@ -270,17 +276,22 @@
 
 
     .plan-card {
-        width: 115vw;
+        width: 132vw;
         transform: scale(0.65);
         margin-top: -8vh;
-        height: 38vh;
+        height: 35%;
     } 
     .plan-card-offer {
         margin-top: -5vh;
+        width: 95vw;
+        height: 200px;
     }
   }
   @media screen and (max-width: 400px){
     .plan-card {
-        height: 40vh;
+        height: 40%;
+    }
+    .plan-card-offer{
+        height: 200px;
     }
   }

@@ -3,6 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import image1 from '../../images/slider1.jpg'
 import image2 from '../../images/slider2.png'
 import image3 from '../../images/slider3.png'
+import img1 from  '../../images/download.jpg'
 import '../../css/DashBoard.css'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
@@ -10,13 +11,13 @@ import 'react-slideshow-image/dist/styles.css'
 function Banner() {
     const slideImages = [
         {
-            src:image1
+            src:img1
         },
         {
-          src:image2
+          src:img1
         },
         {
-          src:image3
+          src:img1
         }
         // {
           

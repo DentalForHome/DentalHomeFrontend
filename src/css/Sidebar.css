@@ -114,11 +114,7 @@
 .sidebar-profile-dental {
   font-weight: bold;
 }
-@media screen and (max-width: 800px) {
-  .nav-menu {
-    display: none;
-  }
-}
+
 .sidebar-container {
   display: flex;
   flex-direction: column;
@@ -131,4 +127,17 @@
   margin: 1px 0 10px 82px;
   box-shadow: 0 0px 20px rgb(0 0 0 / 0.6);
   border-radius: 20px;
+  z-index: 2;
+}
+@media screen and (max-width: 800px) {
+  .nav-menu {
+    display: none;
+  }
+  .sidebar-img{
+
+    display: none;
+  }
+  .sidebar-profile{
+    width: 100%;
+  }
 }

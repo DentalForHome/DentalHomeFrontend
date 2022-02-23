@@ -35,7 +35,7 @@ function Appointments() {
   return (
     <div className="appointment-container">
       <p className="appointment-header">My Appointments</p>
-      <div>
+      <div className="appointment-main">
         <table cellspacing="0" className="appointment-table">
           <tr>
             <th>
